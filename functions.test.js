@@ -23,30 +23,39 @@ describe('Tests for greeting function', () => {
     })
 })
 
-describe('Tests for add Function', () => {
+describe('Math Function', () => {
     test('Does function sum to 3', () => {
         expect(add(1,2)).toEqual(3)
     })
     test('Does function sum to 14', () => {
         expect(add(5,9)).toEqual(14)
     })
-})
+// })
 
-describe('Tests for multiply function', () => {
+// describe('Tests for multiply function', () => {
     test('Does function multiply to 28', () => {
         expect(multiply(7,4)).toEqual(28)
     })
     test('Does function multiply to 12', () => {
         expect(multiply(3,4)).toEqual(12)
     })
-})
+// })
 
-describe('Tests for divide function', () => {
-    test( 'does function divide to 8', () => {
+// describe('Tests for divide function', () => {
+    test('does function divide to 8', () => {
         expect(divide(8,1)).toEqual(8)
     })
     test('does function divide to 20', () => {
         expect(divide(100,5)).toEqual(20)
+    })
+// })
+
+// describe('Tests for subtract function', () => {
+    test('does the difference equal 4', () => {
+        expect(subtract(14,10)).toEqual(4)
+    })
+    test ('does the difference equal 15', () => {
+        expect(subtract(40,25)).toEqual(15)
     })
 })
 
